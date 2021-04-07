@@ -1,0 +1,19 @@
+body{
+    background-color: deepskyblue;
+    margin: 10px auto;
+    width: 700px;
+}
+h1{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+table tr td {
+    border: 3px solid blue;
+    text-align: center;
+    width: 700px;
+}
+video{
+    width: 350px;
+}

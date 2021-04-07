@@ -1,0 +1,51 @@
+body{
+    background: url(img/hatter.jpg);
+    margin-top: 0;
+}
+.wrapper{
+    margin: auto;
+    width: min-content;
+    height: 700px;
+}
+.fej{
+    background: url(img/fejlec.jpg);
+    width: 760px;
+    height: 114px;    
+}
+.fej > div{
+    text-align: center;
+    font-size: 34px;
+    position: relative;
+    top: 40px;
+}
+.bal{
+    float: left;
+    background-color: #e8e8e8;
+    width: 200px;
+    height: 520px;
+    background-image: url(img/menukep.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: #800000;
+}
+.jobb{
+    float: left;
+    background-color: #ffffff;
+    width: 540px;
+    padding: 0 10px;
+    text-align: justify;
+    height: 520px;
+    background-image: url(img/tartalomkep.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    color: #484848;
+}
+h3{
+    text-indent: 10px;
+}
+.bal > div{
+    text-indent: 40px;
+}
+#cim{
+    font-size: 12px;
+}

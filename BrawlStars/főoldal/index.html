@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazekas_Marton_main_page</title>
+    <link rel="stylesheet" href="../style/style2.css">
+    <link rel="icon" href="../img/icon.png">
+</head>
+<body>
+
+    <script src="script.js"></script>
+
+    <input type="radio" name="rend" id="betu" checked>
+    <input type="radio" name="rend" id="betuv">
+    <input type="radio" name="rend" id="up">
+    <input type="radio" name="rend" id="down">
+
+    
+    <header>
+        <label for="betu" class="first"><img src="../img/a.png" alt="none" class="rend"></label>
+        <label for="betuv"><img src="../img/adown.png" alt="none" class="rend"></label>
+        <label for="up"><img src="../img/up.png" alt="none" class="rend"></label>
+        <label for="down"><img src="../img/down.png" alt="none" class="rend"></label>
+        <div><img src="../img/nagyito.png" alt=""><input id="keres" class="keres" type="text" onkeyup="myFunction()" placeholder="Search for a brawler" title="Type in a name"></div>
+    </header>
+    <nav>
+        <div class="filter" onclick="filter('brawler')"><h1>Clear filter</h1></div>
+        <div class="rarity menu"><h1>Rarity</h1> 
+            <div class=".amenu aa">
+                <div class="filter" onclick="elso('brawler')">Clear filter</div>
+                <div id="road" class="filter" onclick="elso(this.id)">Trophy road</div>
+                <div id="rare" class="filter" onclick="elso(this.id)">Rare</div>
+                <div id="srare" class="filter" onclick="elso(this.id)">Super rare</div>
+                <div id="epic" class="filter" onclick="elso(this.id)">Epic</div>
+                <div id="mythic" class="filter" onclick="elso(this.id)">Mythic</div>
+                <div id="lega" class="filter" onclick="elso(this.id)">Legendary</div>
+                <div id="chromatic" class="filter" onclick="elso(this.id)">Chromatic</div>
+            </div>
+        </div>
+        <div class="role menu"><h1>Role</h1> 
+            <div class=".amenu aa">
+                <div class="filter" onclick="masodik('brawler')">Clear filter</div>
+                <div id="assassin" class="filter" onclick="masodik(this.id)">Assassin</div>
+                <div id="batter" class="filter" onclick="masodik(this.id)">Batter</div>
+                <div id="fighter" class="filter" onclick="masodik(this.id)">Fighter</div>
+                <div id="firebreather" class="filter" onclick="masodik(this.id)">Firebreather</div>
+                <div id="heavyweight" class="filter" onclick="masodik(this.id)">Heavyweight</div>
+                <div id="sharpshooter" class="filter" onclick="masodik(this.id)">Sharpshooter</div>
+                <div id="support" class="filter" onclick="masodik(this.id)">Support</div>
+                <div id="thrower" class="filter" onclick="masodik(this.id)">Thrower</div>
+            </div>
+        </div>
+        <div class="team menu"><h1>Team</h1> 
+            <div class=".amenu aa">
+                <div class="filter" onclick="harmadik('brawler')">Clear filter</div>
+                <div id="arcade" class="filter" onclick="harmadik(this.id)">Arcade</div>
+                <div id="gifts" class="filter" onclick="harmadik(this.id)">Gift shop</div>
+                <div id="jungle" class="filter" onclick="harmadik(this.id)">Jungle</div>
+                <div id="junker" class="filter" onclick="harmadik(this.id)">Junker family</div>
+                <div id="mexican" class="filter" onclick="harmadik(this.id)">Mexican</div>
+                <div id="miner" class="filter" onclick="harmadik(this.id)">Miner</div>
+                <div id="mystic" class="filter" onclick="harmadik(this.id)">Mystic</div>
+                <div id="town" class="filter" onclick="harmadik(this.id)">Old town</div>
+                <div id="pirate" class="filter" onclick="harmadik(this.id)">Pirate</div>
+                <div id="retropolice" class="filter" onclick="harmadik(this.id)">Retropolice</div>
+                <div id="shaman" class="filter" onclick="harmadik(this.id)">Shaman family</div>
+                <div id="snowtel" class="filter" onclick="harmadik(this.id)">Snowtel</div>
+                <div id="superhero" class="filter" onclick="harmadik(this.id)">Superhero</div>
+                <div id="undead" class="filter" onclick="harmadik(this.id)">Undead</div>
+                <div id="wildwest" class="filter" onclick="harmadik(this.id)">Wild west</div>
+            </div>
+        </div>
+    <footer>
+        <p>Fazekas Márton</p>
+        <p>2021. 02. 28.</p>
+    </footer>
+    </nav>
+    <div class="wrapper">
+        
+        <div class="brawler epic batter retropolice">
+        <a href="../többioldal/bibi/bibi.html"><div>
+        <img src="../img/Bibi.png" alt="none">
+        <p class="nev">Bibi</p></div></a>
+        </div>
+        
+        
+        <div class="brawler srare fighter miner">
+        <a href="../többioldal/carl/carl.html"><div>
+        <img src="../img/Carl.png" alt="none">
+        <p class="nev">Carl</p></div></a>
+        </div>
+        
+        
+        <div class="brawler epic assassin gifts">
+        <a href="../többioldal/edgar/edgar.html"><div>
+        <img src="../img/Edgar.png" alt="none">
+        <p class="nev">Edgar</p></div></a>
+        </div>
+        
+        
+        <div class="brawler rare heavyweight mexican">
+        <a href="../többioldal/elprimo/elprimo.html"><div>
+        <img src="../img/El_Primo.png" alt="none">
+        <p class="nev">El Primo</p></div></a>
+        </div>
+        
+        <div class="brawler epic heavyweight undead">
+        <a href="../többioldal/frank/frank.html"><div>
+        <img src="../img/Frank.png" alt="none">
+        <p class="nev">Frank</p></div></a>
+        </div>
+                
+        <div class="brawler chromatic support snowtel">
+        <a href="../többioldal/gale/gale.html"><div>
+        <img src="../img/gale.png" alt="none">
+        <p class="nev">Gale</p></div></a>
+        </div>
+        
+        <div class="brawler road fighter junker">
+        <a href="../többioldal/jessie/jessie.html"><div>
+        <img src="../img/Jessie.png" alt="none">
+        <p class="nev">Jessie</p></div></a>
+        </div>
+        
+        <div class="brawler chromatic support snowtel">
+        <a href="../többioldal/lou/lou.html"><div>
+        <img src="../img/Lou.png" alt="none">
+        <p class="nev">Lou</p></div></a>
+        </div>
+        
+        <div class="brawler mythic support superhero">
+        <a href="../többioldal/max/max.html"><div>
+        <img src="../img/Max.png" alt="none">
+        <p class="nev">Max</p></div></a>
+        </div>
+        
+        <div class="brawler mythic sharpshooter snowtel">
+        <a href="../többioldal/mrp/mr-p.html"><div>
+        <img src="../img/Mr._P.png" alt="none">
+        <p class="nev">Mr. P</p></div></a>
+        </div>
+        
+        <div class="brawler road fighter shaman">
+        <a href="../többioldal/nita/nita.html"><div>
+        <img src="../img/Nita.png" alt="none">
+        <p class="nev">Nita</p></div></a>
+        </div>
+        <div class="brawler srare sharpshooter pirate">
+        <a href="../többioldal/penny/penny.html"><div>
+        <img src="../img/Penny.png" alt="none">
+        <p class="nev">Penny</p></div></a>
+        </div>
+        <div class="brawler epic sharpshooter town">
+        <a href="../többioldal/piper/piper.html"><div>
+        <img src="../img/Piper.png" alt="none">
+        <p class="nev">Piper</p></div></a>
+        </div>
+        <div class="brawler srare sharpshooter arcade">
+        <a href="../többioldal/rico/rico.html"><div>
+        <img src="../img/Rico.png" alt="none">
+        <p class="nev">Rico</p></div></a>
+        </div>
+        <div class="brawler rare heavyweight jungle">
+        <a href="../többioldal/rosa/rosa.html"><div>
+        <img src="../img/Rosa.png" alt="none">
+        <p class="nev">Rosa</p></div></a>
+        </div>
+        <div class="brawler lega sharpshooter wildwest">
+        <a href="../többioldal/spike/spike.html"><div>
+        <img src="../img/Spike.png" alt="none">
+        <p class="nev">Spike</p></div></a>
+        </div>        
+        <div class="brawler mythic fighter mystic">
+        <a href="../többioldal/tara/tara.html"><div>
+        <img src="../img/Tara.png" alt="none">
+        <p class="nev">Tara</p></div></a>
+        </div>
+    </div>
+</body>
+</html>

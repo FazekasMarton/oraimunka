@@ -1,0 +1,85 @@
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+    margin: 25px;
+}
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+  
+.flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+}
+body{
+    margin: 0;
+}
+.nav{
+    background-color: whitesmoke;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+button{
+    width: 40%;
+    height: 100%;
+    font-size: 50px;
+    float: left;
+    padding: 0;
+    border: 0;
+}
+#szam{
+    width: 7%;
+    height: 100%;
+    font-size: 50px;
+    float: left;
+    padding: 0;
+    border: 0;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: gray;
+    padding-top: 100px;
+}
+.wrapper img{
+    width: 100%;
+    height: 100%;
+}
+#meret{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.nav div{
+    font-size: 80px;
+    float: left;
+    width: 13%;
+    text-align: center;
+}

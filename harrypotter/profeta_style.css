@@ -1,0 +1,224 @@
+@font-face{
+    font-family: 'NewsPaper';
+    src: url(font/built\ titling\ bd.ttf);
+}
+@font-face{
+    font-family: 'magas';
+    src: url(font/DeliriumNcv-Vm5e.ttf);
+}
+@font-face{
+    font-family: 'west';
+    src: url(font/Carnevalee\ Freakshow.ttf);
+}
+@font-face{
+    font-family: 'bar';
+    src: url('font/barbaro.ttf');
+}
+.tartalom{
+    width: 1177px;
+    margin: 0 auto;
+}
+.tartalom > div{
+    float: left;
+    background-color: rgb( 216, 209, 183);
+}
+.elso{
+    font-size: 27px;
+    width: 250px;
+    height: 139px;
+    font-family: 'NewsPaper';
+}
+.elso > p{
+    margin-top: 25px;
+    text-align: justify;
+}
+.elso > img:first-child{
+    float: left;
+    height: 55px;
+}
+.elso > img:not(:first-child){
+    float: right;
+    margin-top: 25px;
+}
+.cim > img{
+    height: 135px;
+}
+.masodik{
+    font-family: 'NewsPaper';
+    width: 250px;
+    text-align: center;
+    height: 139px;
+    font-size: 38px;
+    letter-spacing: 10px;
+}
+.masodik > span > span{
+    color: rgb( 216, 209, 183);
+    background-color: black;
+}
+.harmadik{
+    color: rgb( 216, 209, 183);
+    font-size: 155px;
+    height: 291px;
+    width: 400px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    
+}
+.harmadik > div{
+    background-color: black;
+    margin-top: 50px;
+    font-family: 'NewsPaper';
+}
+.harmadik p{
+    margin: -50px 0;
+}
+.harmadik p:last-child{
+    letter-spacing: -5px;
+}
+.negyedik{
+    height: 291px;
+    width: 530px;
+    font-family: 'NewsPaper';
+    font-size: 62px;
+    text-align: justify;
+    letter-spacing: 5px;
+}
+.negyedik > img{
+    float: right;
+}
+.otodik{
+    width: 207px;
+    padding-right: 40px;
+    text-align: justify;
+    margin-bottom: -56px;
+}
+.otodik > img#bal{
+    float: left;
+    width: 40px;
+}
+.oldal{
+    font-family: 'magas';
+    font-size: 70px;
+}
+.otodik > img:first-child{
+    width: 100px;
+}
+.betu{
+    font-size: 14px;
+}
+.hatodik{
+    width: 230px;
+    text-align: justify;
+    font-size: 35px;
+    letter-spacing: 2px; 
+}
+td{
+    font-family: 'west';
+    text-align: center;
+    width: 40px;    
+    font-size: 19px;
+}
+.kozep{
+    font-family: 'magas';
+    font-size: 35px;   
+    text-align: justify;
+    letter-spacing: 3px;
+}
+.vege{
+    font-family: 'bar';
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+.date{
+    font-family: 'west';
+    font-size: 39px;
+    letter-spacing: 3px;
+    border-top: solid black 2px;
+}
+.elsosor{
+    font-size: 15px;
+}
+.hetedik{
+    width: 320px;
+    padding-bottom: 1px;
+}
+.hetedik > img{
+    width: 100%;
+}
+.nyolcadik{
+    width: 380px;
+    height: 203px;
+    font-size: 15px;
+    text-align: justify;
+}
+.nyolcadik > img{
+    float: left;
+}
+.kilencedik{
+    margin-top: 56px;
+}
+.kilencedik > img{
+    width: 207px;
+    padding-right: 40px;
+}
+.nszoveg{
+    padding-right: 10px;
+    margin: 0;
+}
+.ncim{
+    border-top: black solid 3px;
+    letter-spacing: 5px;
+    font-family: 'NewsPaper';
+    text-align: justify;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 5px;
+    padding-right: 140px;
+}
+.tizedik{
+    text-align: justify;
+    width: 507px;
+    padding-right: 120px;
+}
+.tizedik > img{
+    float: left;
+    height: 113px;
+    padding-right: 5px;
+}
+.first{
+    font-family: 'NewsPaper';    
+    letter-spacing: 4px;    
+    font-size: 32px;
+}
+.mas{
+    font-family: 'west';
+    font-size: 35px;
+}
+.last{
+    font-size: 33px;
+}
+b{
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.last{
+    font-family: 'bar';
+    font-size: 30px;
+    letter-spacing: 4px;    
+}
+.tizenegyedik{
+    width: 947px;
+}
+.tizenegyedik > img:first-child{
+    float: left;
+    height: 36px;
+}
+.tizenegyedik > img:not(:first-child){
+    float: left;
+    height: 36px;
+}
+.tizenegyedik > span{
+    text-transform: uppercase;
+    font-family: 'NewsPaper';
+    font-size: 30px;
+}

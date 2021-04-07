@@ -1,0 +1,206 @@
+@font-face{
+    font-family: 'botyi';
+    src: url(../Quicksand-Regular.otf);
+}
+body{
+    background-color: rgb(37, 37, 37);
+    margin: 0;
+}
+input{
+    display: none;
+}
+.lec{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    background-color: rgb(17, 17, 17);
+    height: 100px;
+    padding: 15px 0;
+    font-family: 'botyi';
+}
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+nav > .bal > a > img{
+    height: 90px;
+    background-color: black;
+    padding: 5px;
+    margin-right: 50px;
+}
+nav > .jobb > a > img{
+    height: 100px;
+    background-color: rgb(59, 59, 59);
+}
+nav > .bal > img{
+    height: 100px;
+    background-color: rgb(59, 59, 59);
+}
+.bal{
+    width: max-content;
+    float: left;
+    height: 104px;
+}
+.jobb{
+    float: right;
+    width: max-content;
+    height: 104px;
+}
+nav > div > span{
+    color: white;
+    font-size: 100px;
+}
+.continer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    background-color: rgb(17, 17, 17);
+    gap: 30px;
+    text-align: center;
+}
+.continer > label{
+    background-color: black;
+    padding: 5px;
+    font-size: 25px;
+}
+.continer > label:hover{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+#data:checked ~ .data{
+    display: flex;
+}
+#skin:checked ~ .skin{
+    display: flex;
+}
+#history:checked ~ .history{
+    display: block;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 1500px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    display: none;
+    padding-top: 168px;
+    padding-bottom: 250px;
+}
+.HGS{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.adat{
+    background-color: rgb(59, 59, 59);
+    width: min-content;
+    margin: 10px;
+}
+.szöveg{
+    color: white;
+    width: 300px;
+    padding: 10px;
+    text-align: justify;
+}
+.heal{
+    width: 300px;
+}
+.szöveg > label{
+    background-color: blue;
+    padding: 2px;
+}
+video{
+    width: 640px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+}
+.video{
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+input:checked ~ .video{
+    display: block;
+}
+.video > label{
+    color: red;
+    background-color: black;
+    font-size: 40px;
+    padding: 5px;
+}
+.wrapper img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: snow;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+.skin > div{
+    background-color: black;
+    color: white;
+    width: 500px;
+    margin: 10px;
+    height: max-content;    
+    vertical-align: middle;
+    text-align: center;
+    border: solid white 2px;
+    box-shadow: black 15px 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skin img{
+    width: 470px;
+    padding: 10px;
+}
+.skin > div td{
+    width: 500px;
+    height: 950px;
+    background-color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+.history > div{
+    text-align: left;
+    color: white;
+    background-color: rgb(59, 59, 59);
+    padding: 10px 0;
+    font-size: 20px;
+}
+.history > div > ul > li >img{
+    width: 25px;
+}
+.history > div{
+    padding: 25px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 4000px;
+}
+footer > div:first-child{
+    color: white;
+    float: left;
+    width: max-content;
+    padding-left: 30px;
+}
+footer > div:not(:first-child){
+    float: left;
+    padding: 25px 0 25px 200px;
+    font-size: 25px;
+}
+a:hover{
+    color: yellow;
+}

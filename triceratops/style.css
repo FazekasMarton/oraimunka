@@ -1,0 +1,63 @@
+body{
+    background-color: gray;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+#balkep{
+    float: left;
+    width: 158px;
+    box-shadow: 3px 3px 3px 3px #1D1D4E;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+h1{
+    text-align: center;
+}
+#jobbkep{
+    float: right;
+    width: 300px;
+    box-shadow: 3px 3px 3px 3px #1D1D4E;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-top: 50px;
+}
+td{
+    border: dashed #1D1D4E 1px;
+}
+table{
+    box-shadow: 3px 3px 3px 3px #1D1D4E;
+}
+tr td:first-child:not(.fejsor){
+    text-align: right;
+    font: bold;
+    background-color: gray;
+}
+tr td:not(:first-child){
+    text-indent: 10px;
+    font-style: italic;
+    background-color: gray;
+}
+.fejsor{
+    background-color: #1D1D4E;
+    text-align: center;
+    font: bold;
+}
+p:last-child{
+    text-align: center;
+    border-top: solid #1D1D4E 1px;
+    margin: 20px 75px;
+    font: bold;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+a:hover{
+    color: red;
+}
+    /* A feladat azt írta, hogy: A forrás fölött 
+    CSS-el hozzon létre egy #1D1D4E színű vonalat amely 
+    bal oldalról 75px kihagyás után kezdődik, és az oldal 
+    széléig tart! DE a minta mást mondott. Én a minta 
+    szerint csináltam*/

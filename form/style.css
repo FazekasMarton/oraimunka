@@ -1,0 +1,38 @@
+article{
+    background-color: skyblue;
+    color: rgb(0, 0, 155);
+    content: "";
+    clear: both;
+    display: table;
+    padding: 5px 20px 15px 20px;
+    margin: 20px auto;
+    width: 1000px;
+}
+div{
+    width: 500px;
+    float: left;
+}
+fieldset{
+    height: 90px;
+}
+ul{
+    list-style: none;
+    margin: auto -40px;
+}
+li{
+    width: 200px;
+}
+.e{
+    margin: 10px -40px;
+}
+.end{
+    margin: -15px 0;
+}
+li:hover{
+    background-color: black;
+    color: white;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}

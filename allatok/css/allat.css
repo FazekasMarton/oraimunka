@@ -1,0 +1,182 @@
+
+/* * *  K�ls� keret form�z�sa  * * */
+
+
+    body
+    {
+	font-family       :  Verdana             ;
+	text-align        :  center              ;
+    }
+
+    div#keret
+    {
+	width             : 1116px               ;
+    }
+
+    div#keret h1
+    {
+	margin-bottom     :  0                   ;
+	font-size         : 24px                 ;
+	color             : #AA0000              ;
+    }
+
+    div#keret h2
+    {
+	margin            :  8px 0 24px 0        ;
+	font-size         : 18px                 ;
+	color             : #550000              ;
+    }
+
+    a
+    {
+	text-decoration   :  none                ;
+    }
+
+    .ful
+    {
+	float             :  left                ;
+	width             :  120px               ;
+	height            :   36px               ;
+	margin            :  0 2px               ;
+	border-radius     :  16px 16px 0 0       ;
+	text-align        :  center              ;
+	line-height       :  36px                ;
+	vertical-align    :  middle              ;
+	font-weight       :  bold                ;
+	font-size         :  14px                ;
+	color             :  #FFF                ;
+    }
+
+    iframe
+    {
+	border-radius     :  0 0 0 32px          ;  webkit-border-radius: 0 0 0 32px ;  -moz-border-radius: 0 0 0 32px ;
+    }
+
+
+
+/* * *  Bels� keret form�z�sa  * * */
+
+
+    body#belso
+    {
+	margin            :  24px 36px 72px 36px ;
+	padding           :  0px                 ;
+	text-align        :  left                ;
+	font-size         :  12px                ;
+	color             :  #FFF                ;
+    }
+
+    body#belso h1
+    {
+	margin            :  24px                ;
+	text-align        :  center              ;
+	font-size         :  18px                ;
+    }
+
+    body#belso h2
+    {
+	text-align        :  center              ;
+	font-size         :  24px                ;
+    }
+
+
+
+/* * *  Bels� keret: lista �s k�pek-bekezd�sek form�z�sa  * * */
+
+
+    body#belso div ul
+    {
+	text-align        :  justify             ;
+	margin            :  24px 72px 48px 48px ;
+	font-weight       :  bold                ; 
+    }
+
+    body#belso div ul li
+    {
+	margin-bottom     :    8px               ; 
+    }
+
+    body#belso div#lista div:nth-child(odd)
+    {
+	height            :  160px               ;
+	margin-left       :    0px               ;
+    }
+
+    body#belso div#lista div:nth-child(even)
+    {
+	height            :  160px               ;
+	margin-left       :   90px               ;
+    }
+
+    body#belso div#lista div img
+    {
+	width             :  180px               ;
+	height            :  180px               ;
+	border-radius     :  8px                 ;
+	box-shadow        :  8px 8px 4px #1118   ;
+    }
+
+    body#belso div#lista div h2
+    {
+	margin-top        : -156px               ;
+	margin-left       :  212px               ;
+    }
+
+    body#belso div#lista div p
+    {
+	margin-left       :  220px               ;
+	text-align        :  justify             ;
+    }
+
+/* * *  Saját  * * */
+
+    body#belso ul
+    {
+    text-align        :  justify             ;
+    margin            :  24px 72px 48px 48px ;
+    font-weight       :  bold                ; 
+    }
+
+    body#belso ul li
+    {
+    margin-bottom     :    8px               ; 
+    }
+
+    body#belso div#sajat div:nth-child(odd)
+    {
+	height            :  100px               ;
+	margin-left       :    0px               ;
+    }
+
+    body#belso div#sajat div:nth-child(even)
+    {
+	height            :  100px               ;
+	margin-left       :   90px               ;
+    }
+
+    body#belso div#sajat div:nth-child(even) img
+    {
+    float: right;
+    margin-left: 25px;
+    }
+
+    body#belso div#sajat div:nth-child(odd) img
+    {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    }
+
+    body#belso div#sajat div img
+    {
+	width             :  180px               ;
+	height            :  180px               ;
+	border-radius     :  8px                 ;
+	box-shadow        :  8px 8px 4px #1118   ;
+    }
+
+    body#belso div#sajat div p
+    {
+    width: 800px;
+	text-align        :  justify             ;
+    }

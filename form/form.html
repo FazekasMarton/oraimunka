@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article>
+        <div>
+            <label for="text">Név</label>
+            <input type="text" id="text">
+            <fieldset>
+                <legend>Végzettség</legend>
+                <ul>
+                    <li><input type="checkbox" name="vegzettseg" id="v1">
+                    <label for="v1">Általános iskola</label></li>
+                    <li><input type="checkbox" name="vegzettseg" id="v2">
+                    <label for="v2">Érettségi</label></li>
+                    <li><input type="checkbox" name="vegzettseg" id="v3">
+                    <label for="v3">Főiskola/Egyetem</label></li>
+                    <li><input type="checkbox" name="vegzettseg" id="v4">
+                    <label for="v4">Okj</label></li>
+                </ul>
+            </fieldset>
+        </div>
+        <div>
+            <label for="kor">Kor</label>
+            <input type="number" id="text">
+            <fieldset>
+                <legend>Részleg</legend>
+                <ul class="e">
+                    <li><input type="radio" name="Részleg" id="g1">
+                    <label for="g1">HR osztály</label></li>
+                    <li><input type="radio" name="Részleg" id="g2">
+                    <label for="g2">Pénzügy</label></li>
+                    <li><input type="radio" name="Részleg" id="g3">
+                    <label for="g3">Fejlesztés</label></li>
+                </ul>
+            </fieldset>
+        </div>
+        <div class="end"><br><label for="t1">Tapasztalat:</label>
+        <select name="select" id="t1">
+            <option value="0">Pályakezdő</option>
+            <option value="1">Kezdő</option>
+            <option value="2">Profi</option>
+        </select>
+        <button>Küldés</button></div>
+    </article>
+</body>
+</html>

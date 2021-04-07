@@ -1,0 +1,48 @@
+body{
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.wrapper{
+    background-color: lightblue;    
+    padding: 30px;   
+    padding-bottom: 80px;
+}
+h1{
+    border-bottom: double 6px darkblue;
+    text-align: center;   
+}
+h2{
+    color: darkblue;
+    border-top: solid 2px darkblue;
+    border-bottom: dotted 2px darkblue;
+    margin-right: 40%;
+    text-transform: uppercase;
+}
+img{
+    max-width: 200px;
+    margin-left: 20px;
+    float: right;
+    border: darkblue solid 6px;
+}
+ul{
+    margin-left: 65px;
+}
+li{
+    list-style: url(img/kukac.png);
+}
+a:hover{
+    color: darkblue;
+}
+.balra{
+    float: left;
+    margin: 0 20px 0 0;
+}
+.kulso{
+    margin: auto;
+    width: 960px;
+    text-align: justify;
+}
+.forras{
+    text-indent: 50px;    
+    font-style: italic;
+}

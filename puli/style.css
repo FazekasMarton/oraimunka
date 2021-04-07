@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(14, 221, 83);
+}
+.tabla{
+    width: 1050px;
+}
+.oszlop1{
+    text-align: center;
+}
+.oszlop2{
+
+}
+.jobbra{
+    text-align: right;
+}
+.sarga{
+    background-color: yellow;
+    width: 171px;
+}
+.kistabla tr td{
+    width: 400px;
+}
+.pulik{
+    position: absolute;
+}
+.pulik img{
+    position: relative;
+    top: 0;
+}
+.nagybetus{
+    text-transform: uppercase;
+}
+.kozepre{
+    text-align: center;
+}
+.kozepre img{
+    width: 400px;
+}
+.jobbkep{
+    float: right;
+    width: 140px;
+    padding-left: 10px;
+}
+h2{
+    color: yellow;
+    text-indent: 5px;
+}
+hr{
+    height:2px;
+    border-width:0;
+    color:yellow;
+    background-color:yellow
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+.tabla{
+    margin: 0 auto;
+}
+p{
+    text-align: justify;
+}
