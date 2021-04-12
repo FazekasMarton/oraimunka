@@ -25,7 +25,7 @@ function elok(){
     k[i].classList.remove('pont');
   }
   }
-    anyad();
+    visszafordit();
     setTimeout(function(){kever();},500);
     nyert = 0;
 }
@@ -81,7 +81,7 @@ function flip(event,a,b){
           setTimeout(function(){alert('Gratulálok! Megytaláltad az összes párt!');},500);
        }
       }else{
-        setTimeout(function(){anyad();},1500);
+        setTimeout(function(){visszafordit();},1500);
       }
         
     }else{
@@ -92,7 +92,7 @@ function flip(event,a,b){
   }
 }
 
-function anyad(){
+function visszafordit(){
   var card = document.getElementsByClassName("flip-card-inner");
       for(i = 0; i < card.length; i++){
         if(card[i].style.transform == "rotateY(180deg)" && !(card[i].classList.contains('pont'))){
