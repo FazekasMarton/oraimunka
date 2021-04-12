@@ -3,7 +3,7 @@ var x = 0;
 var ea = 'asd';
 var rszam = 0;
 var nyert = 0;  
-var darab = 22;
+var darab = 16;
 setTimeout(function(){kever();},0);
 setTimeout(function(){meret();},0);
 
@@ -31,6 +31,8 @@ function elok(){
 }
 
 function kever(){
+  var ereddarab = document.getElementsByClassName("flip-card").length/2;
+  document.getElementById("szam").max=ereddarab;
   var k = document.getElementsByClassName("flip-card-inner");
   var r = document.getElementsByClassName("flip-card");
   darab = document.getElementById("szam").value;
@@ -38,9 +40,9 @@ function kever(){
     darab=2;
     document.getElementById("szam").value="2";
   }else{
-    if(darab>22){
-      darab=22;
-      document.getElementById("szam").value="22";
+    if(darab>ereddarab){
+      darab=ereddarab;
+      document.getElementById("szam").value=ereddarab;
     }
   }
     darab = darab*2;
