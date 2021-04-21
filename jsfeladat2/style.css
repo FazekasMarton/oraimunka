@@ -1,0 +1,12 @@
+#gomb{
+    width: 400px;
+    height: 50px;
+}
+.wrapper{
+    width: min-content;
+    margin: 50px auto;
+}
+h4{
+    border-top: solid 1px black;
+    text-align: center;
+}
