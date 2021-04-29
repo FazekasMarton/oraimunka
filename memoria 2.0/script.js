@@ -16,7 +16,6 @@ function meret(){
   }
   setTimeout(function(){meret();},0);
 }
-
 function flip(event,a,b){
   if (b!=y && x!=2){
 	var element = event.currentTarget;
@@ -86,7 +85,11 @@ function elok(){
       document.getElementsByClassName("wrapper")[0].appendChild(document.createElement("div")).classList.add("flip-card");
       document.getElementsByClassName("flip-card")[z].appendChild(document.createElement("div")).classList.add("flip-card-inner");
       document.getElementsByClassName("flip-card-inner")[z].id = z;
-      document.getElementsByClassName("flip-card-inner")[z].setAttribute("onclick", "flip(event, "+i+" ,this.id)");
+      if(i == 15){
+        document.getElementsByClassName("flip-card-inner")[z].setAttribute("onclick", "flip(event, 12 ,this.id)");
+      }else{
+        document.getElementsByClassName("flip-card-inner")[z].setAttribute("onclick", "flip(event, "+i+" ,this.id)");
+      }
       document.getElementsByClassName("flip-card-inner")[z].appendChild(document.createElement("div")).classList.add("flip-card-front");
       document.getElementsByClassName("flip-card-front")[z].innerHTML = "<img class=\"front\" alt=\"front\">";
       document.getElementsByClassName("front")[z].src = "img/front.png";
@@ -103,4 +106,5 @@ function elok(){
     rszam = Math.floor(Math.random() * 100);
     r[i].style.order=rszam;
   }
+  x = 0;
 }
