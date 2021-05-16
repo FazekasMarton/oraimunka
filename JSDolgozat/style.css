@@ -1,0 +1,78 @@
+body{
+    background: url('img/hatter.png');
+    background-size: 250px 200px;
+}
+.wrapper{
+    background-color: pink;
+    max-width: 1000px;
+    min-width: 700px;
+    margin: 10px auto;
+    border: black dotted 3px;
+    padding: 4px;
+}
+h1{
+    border-bottom: firebrick solid 2px;
+}
+#bekezd{
+    text-indent: 30px;
+}
+table{
+    margin: auto;
+}
+ul{
+    list-style-image: url('img/paw.png');
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: white;
+    color: maroon;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex{
+    width: 47%;
+    background: grey;
+    margin: 0 0.5%;
+    padding: 1%;
+}
+h2{
+    background: pink;
+    border: outset;
+    width: 50%;
+    padding: 5px;
+}
+.flex img{
+    border: inset;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+table img{
+    width: 150px;
+    height: 150px;
+}
+#nagykep{
+    position: relative;
+}
+#nagykep img{
+    width: 100%;
+}
+#x{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#name{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+#nagykep span{
+    font-size: 40px;
+    color: white;
+}
