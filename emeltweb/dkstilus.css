@@ -1,0 +1,35 @@
+﻿body {
+	font-size: 11pt;
+	background-image: url('img/bg.png');
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: justify;
+}
+a{
+	color: #dc143c;
+}
+table:not(a){
+	width: 930pt;
+	background-color: #f0f8ff;
+	color: #00008b;
+	margin: 10pt auto;
+}
+td{
+	width: 300pt;
+	padding: 0 5pt;
+}
+h2{
+	font-size: 17pt;
+}
+table tr:first-child p{
+	font-size: small;
+	font-style: italic;
+}
+img{
+	width: 240pt;
+	margin-left: 30pt;
+}
+hr{
+	width: 80%;
+}
